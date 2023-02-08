@@ -2,7 +2,7 @@
 
 import java.util.Scanner; // llama a la clase scanner
 
-public class Suma {
+public class _5_Suma {
     
     public static void main(String[] args) {
 
@@ -20,5 +20,7 @@ public class Suma {
         suma = numero1 + numero2; // suma de los 2 numeros
 
         System.out.printf("La suma es de %d\n", suma); // '%d' es para la el formato de la variable
+
+        entrada.close(); // cierra el objeto Scanner
     }
 }
