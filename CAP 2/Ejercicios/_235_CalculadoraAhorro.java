@@ -9,11 +9,11 @@ public class _235_CalculadoraAhorro {
         Scanner entrada = new Scanner(System.in); //
         
         int kilometros; // Total de kilometros conducidos por día
-        int litroGasolina; // Costo por litro de gasolina
-        int promKM_litro; // Promedio de kilometros por litro
+        float litroGasolina; // Costo por litro de gasolina
+        float promKM_litro; // Promedio de kilometros por litro
         int cuotasPARQ; // Cuotas de parqueadero por día
         int peaje; // Peaje por día
-        int total; // ! donde se almacenaran las operaciones necesarias para saber que tanto gasta en un día
+        float total; // ! donde se almacenaran las operaciones necesarias para saber que tanto gasta en un día
     
         System.out.println("----- BIENVENIDO A LA CALCULADORA DE AHORRO -----\n"); // interfaz de usuario simple
         System.out.println("                 .--------.");
@@ -25,7 +25,7 @@ public class _235_CalculadoraAhorro {
         System.out.print("    1. ¿Cuantos Km conduces al día? (num) ");
         kilometros = entrada.nextInt();
         System.out.print("    2. ¿Cuanto te cuesta el litro de gasolina en un día? ($) ");
-        litroGasolina = entrada.nextInt();
+        litroGasolina = entrada.nextFloat();
         System.out.print("    3. ¿En promedio cuantos Km/L haces en un día? (num) ");
         promKM_litro = entrada.nextInt();
         System.out.print("    4. ¿Cuanto te cuesta el parqueadero al día? ($) ");
