@@ -1,1 +1,2 @@
-https://udistritaleduco-my.sharepoint.com/:w:/g/personal/spinedaa_udistrital_edu_co/EVEX3pHE9kxJiT3T74IrUQIBRJB37DoTVVjogVHDlYc6mQ?e=KH4McX
+https://udistritaleduco-my.sharepoint.com/:w:/r/personal/spinedaa_udistrital_edu_co/Documents/Documento.docx?d=w91de1751f6c4494c893dd3ef822b5102&csf=1&web=1&e=ECMX0J
+
