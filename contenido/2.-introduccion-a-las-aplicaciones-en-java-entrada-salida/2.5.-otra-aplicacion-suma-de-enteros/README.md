@@ -6,8 +6,8 @@
 >
 >     _// programa que recibe dos números y muestra la suma_
 
-{% embed url="https://github.com/Deivis44/UD_Java/tree/main/CAP%202" %}
-Archivos
+{% embed url="https://github.com/Deivis44/UD_Java/blob/main/CAP%202/_5_Suma.java" %}
+suma.java
 {% endembed %}
 
 {% hint style="warning" %}
