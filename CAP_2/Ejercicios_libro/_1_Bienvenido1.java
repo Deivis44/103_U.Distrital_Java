@@ -1,4 +1,5 @@
 // Imprimir línea de texto con solo una instrucción
+package CAP_2.Ejercicios_libro;
 
 public class _1_Bienvenido1 {
 

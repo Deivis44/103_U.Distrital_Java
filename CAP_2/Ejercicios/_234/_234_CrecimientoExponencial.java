@@ -1,4 +1,4 @@
-package Ejercicios;
+package CAP_2.Ejercicios._234;
 import java.text.NumberFormat;
 import java.util.Scanner; 
 public class _234_CrecimientoExponencial {

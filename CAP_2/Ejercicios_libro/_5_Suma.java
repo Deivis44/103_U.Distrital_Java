@@ -1,7 +1,7 @@
 // programa que recibe dos números y muestra la suma
 
+package CAP_2.Ejercicios_libro;
 import java.util.Scanner; // llama a la clase scanner
-
 public class _5_Suma {
     
     public static void main(String[] args) {

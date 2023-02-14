@@ -1,5 +1,6 @@
 // compara enteros usando estructuras de control ‘if’, con operadores relaciones y de igualdad
 
+package CAP_2.Ejercicios_libro;
 import java.util.Scanner;    
 public class _6_Comparacion {
 
