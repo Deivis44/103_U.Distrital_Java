@@ -2,7 +2,6 @@
 description: >-
   Apuntes e información relevante sobre el libro anexado a ejercicios guía
   basados en el paradigma de la programación orientada a objetos.
-coverY: 0
 ---
 
 # Cómo programar en Java (10° edición)
