@@ -5,11 +5,10 @@ public class _235v2_CalculadoraAhorro {
 
     public static void main(String[] args) {
         float total;
-
-        Scanner entrada = new Scanner(System.in);
-
+        
         Interfaz prueba = new Interfaz();
-
+        
+        Scanner entrada = new Scanner(System.in);
         prueba.interfaz();
         System.out.print("    1. ¿Cuantos Km conduces al día? (num) ");
         int kilometros = entrada.nextInt();
@@ -21,9 +20,9 @@ public class _235v2_CalculadoraAhorro {
         int cuotasPARQ = entrada.nextInt();
         System.out.print("    5. ¿Cuanto gastas en peajes en un día? ($) ");
         int peaje = entrada.nextInt();
-        prueba.informacion(promKM_litro);
-
         entrada.close();
+        
+        prueba.informacion(promKM_litro);
 
         prueba.preguntas(kilometros, litroGasolina, cuotasPARQ, peaje);
         total = prueba.calcularTotal(kilometros, litroGasolina, cuotasPARQ, peaje);
