@@ -16,6 +16,6 @@ coverY: 0
 > * Escribir instrucciones para tomar decisiones.
 > * Utilizar los operadores relacionales y de igualdad.
 
-{% embed url="https://github.com/Deivis44/UD_Java/tree/main/CAP%202" %}
+{% embed url="https://github.com/Deivis44/UD_Java/tree/main/CAP_2" %}
 Todos los archivos de este capítulo
 {% endembed %}
