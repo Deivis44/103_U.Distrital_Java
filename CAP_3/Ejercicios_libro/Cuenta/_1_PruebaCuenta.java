@@ -3,13 +3,13 @@ package CAP_3.Ejercicios_libro.Cuenta;
 // crear y manipular un objeto cuenta
 
 import java.util.Scanner;
-public class PruebaCuenta {
+public class _1_PruebaCuenta {
     public static void main(String[] args) {
         // crea un objeto Scanner para obtener la entra desde la terminal
         Scanner entrada = new Scanner(System.in);
 
         // crea un objeto Cuenta y lo asigna la variable 'miCuenta'
-        _1_Cuenta miCuenta = new _1_Cuenta(); 
+        Cuenta miCuenta = new Cuenta(); 
         /* instancia objeto para metodo main, variable para el objeto = new , llama al constructor de la clase */
 
         System.out.printf("El nombre inicial es: %s%n%n", miCuenta.obtenerNombre()); // = null porque no hay nada aún

@@ -3,7 +3,7 @@ package CAP_3.Ejercicios_libro.Cuenta;
 /* Clase Cuenta que contiene una variable de instancia llamada nombre
 y métodos para establecer y obtener su valor. */
 
-public class _1_Cuenta {
+public class Cuenta {
     
     private String nombre; // variable de instancia
 

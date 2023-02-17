@@ -1,4 +1,4 @@
-package CAP_2.Ejercicios._235;
+package CAP_2.Ejercicios._235.v1;
 // calculadora de viajes compartidos en automovil
 
 import java.util.Scanner; // importar clase 'Scanner' para recibir datos del usuario

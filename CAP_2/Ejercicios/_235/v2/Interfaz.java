@@ -1,19 +1,9 @@
-package CAP_2.Ejercicios._235;
+package CAP_2.Ejercicios._235.v2;
 
 public class Interfaz {
-    private int kilometros;
-    private float litroGasolina;
-    public double promKM_litro;
-    private int cuotasPARQ;
-    private int peaje;
-    float total;
 
-    public void preguntas(int kilometros, float litroGasolina, int cuotasPARQ, int peaje) {
-        this.kilometros = kilometros;
-        this.litroGasolina = litroGasolina;
-        this.cuotasPARQ = cuotasPARQ;
-        this.peaje = peaje;
-    }
+    public double promKM_litro;
+    public float total;
 
     public void interfaz() {
         System.out.println("----- BIENVENIDO A LA CALCULADORA DE AHORRO -----\n"); // interfaz de usuario simple
@@ -33,9 +23,7 @@ public class Interfaz {
     }
 
     public float calcularTotal(int kilometros, float litroGasolina, int cuotasPARQ, int peaje) {
-        total = (kilometros*litroGasolina) + cuotasPARQ + peaje;
-        
-        return total;
+        return total = ((kilometros*litroGasolina) + cuotasPARQ + peaje);
     }
 
     public void recomendaciones() {

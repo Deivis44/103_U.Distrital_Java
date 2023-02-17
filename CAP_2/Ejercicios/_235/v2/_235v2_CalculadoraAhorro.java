@@ -1,10 +1,9 @@
-package CAP_2.Ejercicios._235;
+package CAP_2.Ejercicios._235.v2;
 
 import java.util.Scanner;
 public class _235v2_CalculadoraAhorro {
 
     public static void main(String[] args) {
-        float total;
         
         Interfaz prueba = new Interfaz();
         
@@ -20,12 +19,11 @@ public class _235v2_CalculadoraAhorro {
         int cuotasPARQ = entrada.nextInt();
         System.out.print("    5. ¿Cuanto gastas en peajes en un día? ($) ");
         int peaje = entrada.nextInt();
+        
         entrada.close();
         
         prueba.informacion(promKM_litro);
-
-        prueba.preguntas(kilometros, litroGasolina, cuotasPARQ, peaje);
-        total = prueba.calcularTotal(kilometros, litroGasolina, cuotasPARQ, peaje);
+        prueba.calcularTotal(kilometros, litroGasolina, cuotasPARQ, peaje);
         prueba.recomendaciones();
     }
 }
