@@ -34,17 +34,17 @@ public class Interfaz {
                 // datos relevantes consultados en la web sobre los beneficios de compartir el carro
                 System.out.println("  ! Podrias considerar la opción de compartir tu carro:");
                 System.out.println("  - Disminuirias en un 75% el costo total de un trayecto normal al día");
-                System.out.println("  - Las emisiones de de carbono bajarian en un 42% aprox.");
+                System.out.println("  - Las emisiones de carbono bajarian en un 42% aprox.");
                 System.out.println("  - La congestion del trafico se veria enormemente reducida");
             } else {
                 System.out.println("// Gastas menos de lo que usualmente se hace en un día en la ciudad = " + total + "$");
             }
 
         } if (total > 120000) { // si excede el rango subestimado
-            System.out.println("// Te recomendamos hacer uso de la estrategia 'Carpooling', en en día gastas = " + total + "$ eso es más de lo estimado");
+            System.out.println("// Te recomendamos hacer uso de la estrategia 'Carpooling', ya que en el día gastas = " + total + "$ eso es más de lo estimado");
             System.out.println("  ! Considera la opción de compartir tu carro:");
             System.out.println("  - Disminuirias en un 75% el costo total de un trayecto normal al día");
-            System.out.println("  - Las emisiones de de carbono bajarian en un 42% aprox.");
+            System.out.println("  - Las emisiones de carbono bajarian en un 42% aprox.");
             System.out.println("  - La congestion del trafico se veria enormemente reducida");
         } else if (total < 0) { // si los valores no tienen sentido "-"
             System.out.println("Al parecer introdujiste valores que no concuerdan con los solicitados");
