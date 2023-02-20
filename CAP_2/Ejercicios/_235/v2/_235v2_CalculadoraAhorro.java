@@ -25,5 +25,7 @@ public class _235v2_CalculadoraAhorro {
         prueba.informacion(promKM_litro);
         prueba.calcularTotal(kilometros, litroGasolina, cuotasPARQ, peaje);
         prueba.recomendaciones();
+
+        entrada.close();
     }
 }
