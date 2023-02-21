@@ -18,6 +18,9 @@
 * [3. Introducción a las clases, los objetos, los métodos y las cadenas](contenido/3.-introduccion-a-las-clases-los-objetos-los-metodos-y-las-cadenas/README.md)
   * [3.1. Introducción](contenido/3.-introduccion-a-las-clases-los-objetos-los-metodos-y-las-cadenas/3.1.-introduccion.md)
   * [3.2. Variables de instancia, métodos establecer y métodos obtener](contenido/3.-introduccion-a-las-clases-los-objetos-los-metodos-y-las-cadenas/3.2.-variables-de-instancia-metodos-establecer-y-metodos-obtener.md)
+  * [3.3 Comparación entre tipos primitivos y tipos por referencia](contenido/3.-introduccion-a-las-clases-los-objetos-los-metodos-y-las-cadenas/3.3-comparacion-entre-tipos-primitivos-y-tipos-por-referencia.md)
+  * [3.4 La clase Cuenta: inicialización de objetos mediante constructores](contenido/3.-introduccion-a-las-clases-los-objetos-los-metodos-y-las-cadenas/3.4-la-clase-cuenta-inicializacion-de-objetos-mediante-constructores.md)
+  * [Page 2](contenido/3.-introduccion-a-las-clases-los-objetos-los-metodos-y-las-cadenas/page-2.md)
 
 ## EJERCICIOS
 
