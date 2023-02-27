@@ -19,7 +19,7 @@ public class _430_Palindromo {
                 Palindromo palindromo = new Palindromo(num);
                 
                 if (num < 10000 || num > 99999) {
-                    JOptionPane.showMessageDialog(null,"Error: El número debe ser un entero de cinco dígitos.");
+                    JOptionPane.showMessageDialog(null,"Error: El número debe ser un entero positivo de cinco dígitos.");
                 } else {
                     entradaValida = true;
 

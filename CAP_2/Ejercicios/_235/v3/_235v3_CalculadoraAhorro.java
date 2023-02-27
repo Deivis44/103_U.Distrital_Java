@@ -1,7 +1,6 @@
 package CAP_2.Ejercicios._235.v3;
 
 import java.util.Scanner;
-import java.lang.NumberFormatException;
 import javax.swing.JOptionPane;
 public class _235v3_CalculadoraAhorro {
 
