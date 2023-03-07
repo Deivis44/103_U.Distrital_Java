@@ -14,10 +14,10 @@ _LINK DEL LIBRO:_
 
 
 
+****
 | Integrantes | Nombre                         | Codigo      |
 | ----------- | ------------------------------ | ----------- |
 | 1           | David Santiago Muñoz Fernández | 20222020054 |
 | 2           | Santiago Pineda Anaya          | 20222020055 |
 |             |                                |             |
-
 ****
