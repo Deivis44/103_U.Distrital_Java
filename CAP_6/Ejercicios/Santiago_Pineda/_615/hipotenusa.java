@@ -1,7 +1,7 @@
 package CAP_6.Ejercicios.Santiago_Pineda._615;
 
 
-public class crecimiento_final{
+public class hipotenusa{
 
     public static void main(String[] args) 
 

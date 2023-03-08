@@ -11,7 +11,7 @@ validacion validado=new validacion();
 salida salid =new salida();
 
 salid.mostrar2();
-policy1.setState("i");
+policy1.setState("CT");
 policy1.setMakeAndModel("i");
 policy1.setAccountNumber(8);
 

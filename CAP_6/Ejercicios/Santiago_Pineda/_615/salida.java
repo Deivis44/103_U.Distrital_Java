@@ -34,13 +34,9 @@ public class salida{
      public void error() {
        System.out.println("el valor ingresado no es un numero:\n ");
        }
-
-  
-        public void mostrarresultado() {
-        double hipotenusa = mundo.hipotenusa();
-        System.out.println("El valor de la hopitenusa es: " + hipotenusa);
+     
     }
-   }    
+   
    
 
 
