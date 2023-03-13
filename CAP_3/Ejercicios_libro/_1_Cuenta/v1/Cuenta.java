@@ -1,4 +1,4 @@
-package CAP_3.Ejercicios_libro.Cuenta.v1;
+package CAP_3.Ejercicios_libro._1_Cuenta.v1;
 
 /* Clase Cuenta que contiene una variable de instancia llamada nombre
 y métodos para establecer y obtener su valor. */

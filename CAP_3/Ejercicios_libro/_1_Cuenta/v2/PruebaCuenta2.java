@@ -1,9 +1,9 @@
-package CAP_3.Ejercicios_libro.Cuenta.v2;
+package CAP_3.Ejercicios_libro._1_Cuenta.v2;
 
 // Uso del constructor de Cuenta para inicializar la variable de instancia
 // nombre al momento de crear el objeto Cuenta.
 
-public class _1_PruebaCuenta2 {
+public class PruebaCuenta2 {
     
     public static void main(String[] args) {
         
