@@ -1,9 +1,9 @@
-package CAP_3.Ejercicios_libro._1_Cuenta.v1;
+package CAP_3.Ejercicios_libro.Cuenta.v1;
 
 // crear y manipular un objeto cuenta
 
 import java.util.Scanner;
-public class PruebaCuenta {
+public class _1_PruebaCuenta {
     public static void main(String[] args) {
         // crea un objeto Scanner para obtener la entra desde la terminal
         Scanner entrada = new Scanner(System.in);
