@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 public class ServiciosNetflix {
     
-    public static void main(String[] args) {
+    public void abrirAplicacion() {
 
         Interfaz interfaz = new Interfaz();
         interfaz.interfaz_bienvenida();
