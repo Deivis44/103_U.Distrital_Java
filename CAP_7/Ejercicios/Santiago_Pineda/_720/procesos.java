@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class procesos {
     Vendedor[] vendedores = new Vendedor[4];
     Scanner scanner = new Scanner(System.in); 
-validaciones a=new validaciones();
+ validaciones a=new validaciones();
     public void hacer()
     {
     for (int i = 0; i < 5; i++) {
@@ -24,13 +24,22 @@ public void hacer3(){
 }
 }
 public void hacer4(){
-    while (scanner.hasNext()) 
-    {
-        int numeroVendedor = scanner.nextInt();
-        int numeroProducto = scanner.nextInt();
-        double valorVenta = scanner.nextDouble();
-        vendedores[numeroVendedor-1].agregarVenta(numeroProducto, valorVenta);
- }
+    try {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 4; j++) {
+                while (scanner.hasNext()) 
+                {
+                    int numeroVendedor = scanner.nextInt();
+                    int numeroProducto = scanner.nextInt();
+                    double valorVenta = scanner.nextDouble();
+                    vendedores[numeroVendedor-1].agregarVenta(numeroProducto, valorVenta);
+             }
+            }
+        } 
+    } catch (Exception e) {
+        System.out.println("Error: " + e.getMessage());
+    }
+    
 }
 public void hacer2(){
     for (int i = 0; i < 4; i++) {
