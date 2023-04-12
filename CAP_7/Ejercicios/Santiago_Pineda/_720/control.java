@@ -6,7 +6,6 @@ procesos b=new procesos();
 public void a(){
       a.mostrar();
       b.hacer2();
-      a.texto();
       b.hacer4();
       a.texto2();
       a.textos4();

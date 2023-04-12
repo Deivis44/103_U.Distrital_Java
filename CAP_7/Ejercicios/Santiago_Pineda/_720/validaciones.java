@@ -2,7 +2,7 @@ package CAP_7.Ejercicios.Santiago_Pineda._720;
 import java.util.Scanner;
 public class validaciones {
 
-Scanner sc = new Scanner(System.in);
+static Scanner sc = new Scanner(System.in);
 salida mostrar =new salida();
 static salida c=new salida();
 public int leerdatos() 
@@ -11,34 +11,68 @@ public int leerdatos()
         int numeroVendedor = 0;
         while (true) {
             try {
-                numeroVendedor = sc.nextInt();
-                if (numeroVendedor < 0) {
 
+                c.vendedor();
+                numeroVendedor = Integer.parseInt(sc.nextLine());
+        
+                while (numeroVendedor < 0||numeroVendedor>4) {
+                    c.dato();
+                    numeroVendedor = Integer.parseInt(sc.nextLine());
                 }
                 break;
             } catch (Exception e) {
+                c.n();
             }
         }
         return numeroVendedor;
     }
     finally{}
 }
-public Double leerdatos2() 
+
+
+public int leerdatos4() 
 {
     try{
-        Double  valorVenta = 0.0;
+        int numeroVendedor = 0;
         while (true) {
             try {
-            
-                valorVenta = sc.nextDouble();
+                c.producto();
+                numeroVendedor = Integer.parseInt(sc.nextLine());
+                
+                while (numeroVendedor < 0||numeroVendedor>5) {
+                   c.no();
+                    numeroVendedor = Integer.parseInt(sc.nextLine());
+                }
                 break;
             } catch (Exception e) {
-            
+               c.n();
             }
         }
-        return  valorVenta;
+        return numeroVendedor;
     }
     finally{}
+}
+public double leerdatos2() 
+{
+    try{
+        double valorVenta= 0;
+        while (true) {
+            try {
+               c.venta();
+                valorVenta = Double.parseDouble(sc.nextLine());
+                while (valorVenta<0) {
+                   c.negativo();
+                    valorVenta = Double.parseDouble(sc.nextLine());
+                }
+                break;
+            } catch (Exception e) {
+                c.n();
+            }
+        }
+        
+        return valorVenta;
+    }
+    finally{} 
 }
 public int leerdatos3() 
 {
@@ -53,7 +87,7 @@ public int leerdatos3()
                 }
                 break;
             } catch (Exception e) {
-                System.out.println("Error: " + e.getMessage());
+                c.n();
             }
         }
         return key;

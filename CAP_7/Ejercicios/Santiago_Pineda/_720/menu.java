@@ -1,4 +1,3 @@
-
 package CAP_7.Ejercicios.Santiago_Pineda._720;
 public class menu {
     public void opciones(int key){
@@ -6,19 +5,13 @@ public class menu {
          salida c=new salida();
      switch (key) {
            case 1:   
-         a.a();
-      
+           a.a();
            break;
-       
            case 2:
            c.letrero();
-           break;
-               
+           break; 
           default: 
           c.letrero2();
        }
-
-
-
     }
 }

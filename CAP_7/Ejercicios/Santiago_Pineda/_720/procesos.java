@@ -24,23 +24,18 @@ public void hacer3(){
 }
 }
 public void hacer4(){
-    try {
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 4; j++) {
-                while (scanner.hasNext()) 
-                {
-                    int numeroVendedor = scanner.nextInt();
-                    int numeroProducto = scanner.nextInt();
-                    double valorVenta = scanner.nextDouble();
-                    vendedores[numeroVendedor-1].agregarVenta(numeroProducto, valorVenta);
-             }
-            }
-        } 
-    } catch (Exception e) {
-        System.out.println("Error: " + e.getMessage());
-    }
-    
-}
+    for (int j = 0; j < 20; j++) {
+
+        int numeroVendedor = a.leerdatos();
+        int numeroProducto = a.leerdatos4();
+        double valorVenta = a.leerdatos2();
+        
+        System.out.println("los datos inscritos van asi el vendedor "+ numeroVendedor +" vendio el producto "+ numeroProducto +" con el precio "+ valorVenta);
+
+        vendedores[numeroVendedor-1].agregarVenta(numeroProducto, valorVenta);
+    }  
+                }
+                    
 public void hacer2(){
     for (int i = 0; i < 4; i++) {
         vendedores[i] = new Vendedor(i+1);
