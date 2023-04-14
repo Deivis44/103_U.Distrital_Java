@@ -1,8 +1,7 @@
 package CAP_7.Ejercicios.Santiago_Pineda._720;
-
 public class control {
-salida a=new salida();
-procesos b=new procesos();
+vista a=new vista();
+modelo b=new modelo();
 public void a(){
       a.mostrar();
       b.hacer2();

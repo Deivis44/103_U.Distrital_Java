@@ -1,7 +1,7 @@
 package CAP_7.Ejercicios.Santiago_Pineda._720;
 public class menu {
     public void opciones(int key){
-         control a=new control();
+         controlador a=new controlador();
          salida c=new salida();
      switch (key) {
            case 1:   
