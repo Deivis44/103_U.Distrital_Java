@@ -1,7 +1,7 @@
 package CAP_7.Ejercicios.Santiago_Pineda._720;
 import java.util.Scanner;
 
-public class procesos {
+public class modelo {
     Vendedor[] vendedores = new Vendedor[4];
     Scanner scanner = new Scanner(System.in); 
  validaciones a=new validaciones();

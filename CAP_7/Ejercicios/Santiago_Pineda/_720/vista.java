@@ -1,6 +1,6 @@
 package CAP_7.Ejercicios.Santiago_Pineda._720;
 
-public class salida {
+public class vista {
     public void texto2() {
         System.out.println("Ventas por producto y vendedor:");
      }

@@ -1,10 +1,10 @@
 package CAP_7.Ejercicios.Santiago_Pineda._720;
 import java.util.Scanner;
-public class vista {
+public class validaciones {
 
 static Scanner sc = new Scanner(System.in);
-salida mostrar =new salida();
-static salida c=new salida();
+vista mostrar =new vista();
+static vista c=new vista();
 public int leerdatos() 
 {
     try{
@@ -99,8 +99,8 @@ public int leerdatos3()
 public static void mostrar() 
 {
     Vendedor mundo = new Vendedor(0);
-    vista denegacion = new vista();
-    salida nuevo =new salida();
+    validaciones denegacion = new validaciones();
+    vista nuevo =new vista();
     menu options =new menu();
 
     int key;
@@ -115,8 +115,8 @@ public static void mostrar()
 public static void mostrar2() 
 {
     Vendedor mundo = new Vendedor(0);
-    vista denegacion = new vista();
-    salida nuevo =new salida();
+    validaciones denegacion = new validaciones();
+    vista nuevo =new vista();
     menu options =new menu();
 
     int key=0;

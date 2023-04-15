@@ -1,5 +1,5 @@
 package CAP_7.Ejercicios.Santiago_Pineda._720;
-public class control {
+public class controlador {
 vista a=new vista();
 modelo b=new modelo();
 public void a(){
