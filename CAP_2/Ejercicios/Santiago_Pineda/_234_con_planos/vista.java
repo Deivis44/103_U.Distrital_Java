@@ -41,7 +41,7 @@ public class vista{
       System.out.println("el valor ingrasado no existe en el menu ingrese 1 o 2\n");
      }
       public void Exception() throws java.lang.Exception {
-      throw new Exception("\tLa población debe ser un número positivo\n");
+      throw new Exception("\tLa población debe ser un número positivo \n");
       }
       
      public void error() {
