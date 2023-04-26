@@ -19,3 +19,5 @@ _LINK DEL LIBRO:_
 | 1           | David Santiago Muñoz Fernández | 20222020054 |
 | 2           | Santiago Pineda Anaya          | 20222020055 |
 |             |                                |             |
+
+**Documentación ante-proyecto:** https://davids-organization-17.gitbook.io/chess.java/
