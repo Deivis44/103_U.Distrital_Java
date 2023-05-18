@@ -1,4 +1,4 @@
-package __TALLER_POO2;
+package __TALLER1_POO2;
 
 import java.util.*;
 
